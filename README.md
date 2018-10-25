@@ -1,4 +1,4 @@
-### Pimp the doctor
+# Pimp the doctor
 
 Projet realisé en equipe. Nous avions chacun bossé sur un/deux sujets. pour ma part j'ai travaillé sur celui-ci et sur Doctolib.
 

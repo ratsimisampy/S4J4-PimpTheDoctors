@@ -31,4 +31,4 @@ Patient.find(Doctor.first.appointments.last.speciality_id)
 ### schema MCD (to do)
 
 
-
+![alt text]()

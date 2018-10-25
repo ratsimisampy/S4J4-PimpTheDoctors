@@ -38,9 +38,9 @@ def seed_speciality
     end
 end
 
-#seed_patient
-#seed_doctor
+seed_patient
+seed_doctor
 
-#seed_city   
-#seed_speciality
+seed_city   
+seed_speciality
 seed_appointment

@@ -31,4 +31,5 @@ Patient.find(Doctor.first.appointments.last.speciality_id)
 ### schema MCD (to do)
 
 
-![alt text] (S4J4-PimpTheDoctors/public/DoctoLib.jpg)
+![alt text](https://github.com/ratsimisampy/S4J4-PimpTheDoctors/public/DoctoLib.jpg) 
+

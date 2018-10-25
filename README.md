@@ -1,24 +1,34 @@
-# README
+### Pimp the doctor
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Projet realisé en equipe. Nous avions chacun bossé sur un/deux sujets. pour ma part j'ai travaillé sur celui-ci et sur Doctolib.
 
-Things you may want to cover:
+## Installation et execution
 
-* Ruby version
+* Cloner le Repo
+* Bundle install
+* note : normalement la base est remplie. 
+  ==> Sinon lancer la commande $ rails db:seed
 
-* System dependencies
+## Verification des liens de tables (aide)
 
-* Configuration
+voici quelques script créés par mes soins pour t'aider a voir les liens existants:
 
-* Database creation
+En allant sur $ rails console :
 
-* Database initialization
+Doctor.first.appointments.count
+⇒ Le nombre de de Rdv du docteur. (j’aimerai mettre une condition Where name = “” ... tu peux m'aider ?)
 
-* How to run the test suite
+Doctor.first.appointments.last
+⇒ le dernier Rdv du 1er docteur
 
-* Services (job queues, cache servers, search engines, etc.)
+Speciality.find(Doctor.first.appointments.last.speciality_id).name		
+  ⇒ La specialite du dernier Rdv du 1er docteur de la liste
 
-* Deployment instructions
+Patient.find(Doctor.first.appointments.last.speciality_id)
+  ⇒ Pour la specialite donnee du dernier Rdv du 1er docteur de la liste, en deduire le nom du patient
 
-* ...
+
+### schema MCD (to do)
+
+
+
